@@ -18,10 +18,35 @@ img {
     clear: both;
 }
 
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    border: 2px solid red;
+}
+
 /* Intestazione */
-.title {
+
+/* .title {
     font-family:'Fredoka', sans-serif;;
     font-size: 35px;
     text-align: center;
     color: #e53170;
+} */
+
+
+/* Inizio sezione contenente cards*/
+
+
+
+
+
+/* DEBAG */
+.debug .container {
+    border: 2px solid red;
+    padding: 10px;
+}
+
+.debug .col {
+    border: 2px solid lightskyblue;
+    padding: 10px;
 }
