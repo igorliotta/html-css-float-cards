@@ -21,15 +21,18 @@ img {
 }
 
 .container {
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
     border: 2px solid white;
 }
 
 /* Intestazione */
 
+section {
+    margin-top: 25px;
+}
+
 .title {
-    font-family:'Fredoka', sans-serif;;
     font-size: 35px;
     text-align: center;
     color: #e53170;
@@ -54,38 +57,30 @@ img {
 
 .card-information {
     width: 70%;
-    margin-left: 120px;
+    margin-left: 110px;
 }
-
-.card-img3 {
-    width: 800px;
-}
-
-
 
 .card-name {
     color: white;
     font-size: 15px;
+    margin-bottom: 7px;
 }
 .card-profession {
     color: white;
     font-size: 10px;
     width: 40px;
+    margin-bottom: 11px;
 }
 
 .card-email {
     color: #5abad1;
-    background-color: white;
-    font-size: 10px;
+    font-size: 12px;
+    margin-top: 10px;
 }
-/*  */
-
-
-
 
 /* DEBAG */
 .debug .container {
-    border: 2px solid red;
+    
     padding: 10px;
 }
 
