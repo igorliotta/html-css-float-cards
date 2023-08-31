@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+}
+
+img {
+    max-width: 100%;
+}
+
+.clearfix::after {
+    content:'';
+    display: table;
+    clear: both;
+}
+
+/* Intestazione */
+.title {
+    font-family:'Fredoka', sans-serif;;
+    font-size: 35px;
+    text-align: center;
+    color: #e53170;
+}
