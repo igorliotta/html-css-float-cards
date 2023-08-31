@@ -44,7 +44,7 @@ section {
 .col {
     float: left;
     width: calc(100% / 3); 
-    background-color: black;  
+    background-color: black;
 }
 
 
@@ -58,6 +58,7 @@ section {
 .card-information {
     width: 70%;
     margin-left: 110px;
+    margin-top: 20px;
 }
 
 .card-name {
@@ -80,12 +81,11 @@ section {
 
 /* DEBAG */
 .debug .container {
-    
     padding: 10px;
 }
 
 .debug .col {
-    border: 2px solid lightskyblue;
+    border: 13px solid white;
     padding: 10px;
     min-height: 100px;
 }
