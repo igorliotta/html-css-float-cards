@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -39,8 +40,47 @@ img {
 
 .col {
     float: left;
-    width: calc(100% / 3);   
+    width: calc(100% / 3); 
+    background-color: black;  
 }
+
+
+.card-img {
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+
+.card-information {
+    width: 70%;
+    margin-left: 120px;
+}
+
+.card-img3 {
+    width: 800px;
+}
+
+
+
+.card-name {
+    color: white;
+    font-size: 15px;
+}
+.card-profession {
+    color: white;
+    font-size: 10px;
+    width: 40px;
+}
+
+.card-email {
+    color: #5abad1;
+    background-color: white;
+    font-size: 10px;
+}
+/*  */
+
+
 
 
 /* DEBAG */
@@ -63,18 +103,12 @@ img {
 
 /* Footer */
 
-footer .text-footer {
-    width: 1000px;
-    font-size: 13px;
-    text-align: center;
-    color: lightgrey;
-    background-color: #222222;
-    color: lightgrey;
-    padding-top: 35px;
-    padding-left: 50px;
-    padding-right: 50px;
+.text-footer {
+    padding: 30px;
     padding-bottom: 50px;
-    margin-top: 30px;
-    margin-left: 250px;
+    font-size: 13px;
+    background-color: #222222;
+    color: white;
+    text-align: center;
 }
 
