@@ -6,93 +6,118 @@
     <title>Floating Cards</title>
     <link rel="stylesheet" href="./css/app.css">
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;700&family=Outfit:wght@400;701;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;700&family=Outfit:wght@400;701;900&display=swap" rel="stylesheet">
 </head>
-<body class="debug">
-    <!-- Intestazione -->
-   <section>
-    <div class="container">
-        <h1 class="title">Meet Our Team</h1>
-    </div>
-   </section>
-   <!-- Sezione centrale contenente le cards -->
-   
-   <main>
-    <section>
+<body class="debugg">
+    <!-- Inizio intestazione e paragrafo -->
+    
+    <main>
+      <section id="team-section" class="section">
         <div class="container">
-            <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi molestias quas dica recusandae aspernatur, totam fugit animi beata quaerat
+            <h2 class="title">Meet Our Team</h2>
+        </div>
+        <div class="container">
+            <p class="text-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi molestias quas dica recusandae aspernatur, totam fugit animi beata quaerat
                 quasi voluptatum delectus impedit explicabo ex, et tempore dolore? Assumenda, animi:</p>
         </div>
-        
-        <div class="container clearfix">
-            
-            <div class="col">
-                <img class="card-img" src="./img/male1.png" alt="ivana-smoke">
-                <div class="card-information">
-                    <h3 class="card-name">LAURA ROSSI</h3>
-                    <span class="card-profession">Front-end Developer</span>
-                    <span class="card-email">laurarossi@team.com</span>
-                </div>
 
-            </div>
-            <div class="col">
-                <img class="card-img" src="./img/female1.png" alt="ivana-smoke">
-                <div class="card-information">
-                    <h3 class="card-name">LAURA ROSSI</h3>
-                    <span class="card-profession">Front-end Developer</span>
-                    <span class="card-email">laurarossi@team.com</span>
-                </div>
-
-            </div>
-            <div class="col">
-                <img class="card-img" src="./img/male2.png" alt="ivana-smoke">
-                <div class="card-information">
-                    <h3 class="card-name">LAURA ROSSI</h3>
-                    <span class="card-profession">Front-end Developer</span>
-                    <span class="card-email">laurarossi@team.com</span>
-                </div>
-            </div>
-
-        </div>
+        <!-- Inizio impostazione di layout delle cards -->
 
         <div class="container clearfix">
-            
             <div class="col">
-                <img class="card-img" src="./img/female2.png" alt="ivana-smoke">
-                <div class="card-information">
-                    <h3 class="card-name">LAURA ROSSI</h3>
-                    <span class="card-profession">Front-end Developer</span>
-                    <span class="card-email">laurarossi@team.com</span>
+                <div class="card clearfix">
+                    <div class="card-img">
+                        <img src="./img/male1.png" alt="">
+                    </div>
+                    <div class="card-info">
+                        <h4 class="name-member">Marco Bianchi</h4>
+                        <p class="member-profession">Designer</p>
+                        <a class="mamber-email" href="mailto:marcobianchi@team.com">marcobianchi@team.com</a>
+                    </div>
                 </div>
             </div>
 
             <div class="col">
-                <img class="card-img" src="./img/male3.png" alt="ivana-smoke">
-                <div class="card-information">
-                    <h3 class="card-name">LAURA ROSSI</h3>
-                    <span class="card-profession">Front-end Developer</span>
-                    <span class="card-email">laurarossi@team.com</span>
+                <div class="card clearfix">
+                    <div class="card-img">
+                       <img src="./img/female1.png" alt="">
+                   </div>
+
+                  <div class="card-info">
+                    <h4 class="name-member">Laura Rossi</h4>
+                    <p class="member-profession">Front-end Developer</p>
+                    <a class="mamber-email" href="mailto:laurarossi@team.com">laurarossi@team.com</a>
+                  </div>
                 </div>
             </div>
 
-            <div class="col"><img class="card-img" src="./img/female3.png" alt="ivana-smoke">
-                <div class="card-information">
-                    <h3 class="card-name">LAURA ROSSI</h3>
-                    <span class="card-profession">Front-end Developer</span>
-                    <span class="card-email">laurarossi@team.com</span>
+            <div class="col">
+                <div class="card clearfix">
+                   <div class="card-img">
+                     <img src="./img/male2.png" alt="">
+                   </div>
+
+                  <div class="card-info">
+                    <h4 class="name-member">Giorgio Verdi</h4>
+                    <p class="member-profession">Back-end Developer</p>
+                    <a class="mamber-email" href="mailto:giorgioverdi@team.com">giorgioverdi@team.com</a>
+                  </div>
+               </div>
+           </div>
+
+            <div class="col">
+                <div class="card clearfix">
+                   <div class="card-img">
+                     <img src="./img/female2.png" alt="">
+                   </div>
+
+                   <div class="card-info">
+                      <h4 class="name-member">Marta Ipsum</h4>
+                      <p class="member-profession">CEO Specialist</p>
+                      <a class="mamber-email" href="mailto:martaipsum@team.com">martaipsum@team.com</a>
+                   </div>
                 </div>
+            </div>
+
+            <div class="col">
+                <div class="card clearfix">
+                  <div class="card-img">
+                   <img src="./img/male3.png" alt="">
+                  </div>
+
+                   <div class="card-info">
+                      <h4 class="name-member">Roberto Lorem</h4>
+                      <p class="member-profession">Project Manager</p>
+                      <a class="mamber-email" href="mailto:robertolorem@team.com">robertolorem@team.com</a>
+                   </div>
+              </div>
+           </div>
+
+            <div class="col">
+                <div class="card clearfix">
+                   <div class="card-img">
+                     <img src="./img/female3.png" alt="">
+                   </div>
+
+                   <div class="card-info">
+                     <h4 class="name-member">Daniela Amet</h4>
+                     <p class="member-profession">Designer</p>
+                     <a class="mamber-email" href="mailto:danielaamet@team.com">danielaamet@team.com</a>
+                   </div>
+                </div>
+           </div>
+
         </div>
-    </section>
-   </main>
+       </section>
+    </main>
 
-    <!-- Footer -->
-    <footer>
+    <!-- Inizio struttura Footer -->
+
+    <footer class="main-footer">
         <div class="container">
-            <p class="text-footer">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis, voluptate consequuntur? Eos dolore dolorum quos dolores excepturi optio
-            totam consectetur ex incidunt ea dolorem accusamus, atque corporis cum debitis hic.
-            </p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis, voluptate consequuntur? Eos dolore dolorum quos dolores excepturi optio
+                totam consectetur ex incidunt ea dolorem accusamus, atque corporis cum debitis hic.</p>
         </div>
     </footer>
 </body>
